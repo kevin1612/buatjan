@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:text="MENU INPUT DATA  \n\n"
+            android:textAlignment="center"
+
+            android:textSize="40dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kode Barang"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="normal"
+            android:layout_marginLeft="60dp"
+
+            />
+
+        <EditText
+            android:id="@+id/edtkode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="2dp"
+            android:textAlignment="center"
+            android:hint="(Contoh : KB001)"
+            android:background="@drawable/customstroke"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Barang"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="normal"
+            android:layout_marginLeft="60dp"
+
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtnama"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:textAlignment="center"
+            android:hint="(Contoh : Lenovo)"
+            android:background="@drawable/customstroke"
+            android:layout_marginBottom="2dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Harga Barang"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="normal"
+            android:layout_marginLeft="60dp"
+
+         />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtharga"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:textAlignment="center"
+            android:hint="(Contoh : 2000000)"
+            android:background="@drawable/customstroke"
+            android:layout_marginBottom="2dp"
+
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jenis Barang"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="normal"
+            android:layout_marginLeft="60dp"
+/>
+
+
+        <EditText
+            android:id="@+id/edtjenis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/customstroke"
+            android:hint="(Contoh : Laptop)"
+            android:textAlignment="center"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="1dp"
+            >
+            <Button
+                android:id="@+id/btninsert"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="80dp"
+                android:background="@drawable/customstroke"
+                android:backgroundTint="#0009ff"
+                android:text="CREATE"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp"
+                />
+            <Button
+                android:id="@+id/btnread"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_marginRight="100dp"
+                android:background="@drawable/customstroke"
+                android:backgroundTint="#0009ff"
+                android:text="READ"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtdatas"
+        android:layout_width="match_parent"
+        android:layout_height="408dp"
+        android:textAlignment="center" />
+
+
+
+</LinearLayout>
